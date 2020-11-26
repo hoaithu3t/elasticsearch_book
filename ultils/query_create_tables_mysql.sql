@@ -3,7 +3,8 @@ create database book_growth;
 
 use book_growth;
 
-CREATE TABLE attributes (
+drop table if exists attributes;
+create table attributes (
   sku varchar(255),
   name varchar(255),
   type varchar(255),
@@ -11,7 +12,8 @@ CREATE TABLE attributes (
   value_id int
 );
 
-CREATE TABLE categories (
+drop table if exists categories;
+create table categories (
   sku varchar(255),
   id int,
   type varchar(255),
@@ -20,7 +22,8 @@ CREATE TABLE categories (
   level int
 );
 
-CREATE TABLE books (
+drop table if exists books;
+create table books (
   sku varchar(255) PRIMARY KEY,
   name varchar(255),
   description varchar(255),
@@ -36,14 +39,16 @@ CREATE TABLE books (
 );
 
 
-CREATE TABLE channels (
+drop table if exists channels;
+create table channels (
   sku varchar(255),
   id int,
   name varchar(255),
   type varchar(255)
 );
 
-CREATE TABLE quantity (
+drop table if exists quantity;
+create table quantity (
   sku varchar(255),
   last_1_week int,
   last_2_week int,
@@ -54,17 +59,20 @@ CREATE TABLE quantity (
   last_1_year int
 );
 
-CREATE TABLE authors (
+drop table if exists authors;
+create table authors (
   id varchar(255),
   name varchar(255)
 );
 
-CREATE TABLE book_authors (
+drop table if exists book_authors;
+create table book_authors (
     sku varchar(255),
     author_id varchar(255)
 );
 
-CREATE TABLE value_books (
+drop table if exists value_books;
+create table value_books (
   sku varchar(255),
   id int,
   option_id int,
