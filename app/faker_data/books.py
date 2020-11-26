@@ -62,20 +62,20 @@ def price_details():
 class Faker():
     def __init__(self):
         with open('./app/faker_data/categories.json', encoding='utf-8') as categories_file:
-            self.categories = json.load(categories_file)
+            self.categories_data = json.load(categories_file)
 
         with open('./app/faker_data/attributes.json', encoding='utf-8') as attributes_file:
-            self.attributes = json.load(attributes_file)
+            self.attributes_data = json.load(attributes_file)
         with open('./app/faker_data/channels.json', encoding='utf-8') as channels_file:
-            self.channels = json.load(channels_file)
+            self.channels_data = json.load(channels_file)
         self.quantity_fields = ["last_1_week", "last_2_week", "last_3_week", "last_1_month",
                                 "last_2_month", "last_3_month", "last_1_year"]
 
     def categories(self):
-        return random.choice(self.categories)
+        return random.choice(self.categories_data)
 
     def attributes(self):
-        new_attributes = [*self.attributes]
+        new_attributes = [*self.attributes_data]
         # Bìa
         new_attributes[0]['values'][0]['value'] = random.choice(["Bìa cứng", "Bìa mềm"])
         # Kích thước
@@ -84,7 +84,7 @@ class Faker():
         return new_attributes
 
     def channels(self):
-        return random.choices(self.channels)
+        return random.choices(self.channels_data)
 
     def quantity(self):
         cur = 0

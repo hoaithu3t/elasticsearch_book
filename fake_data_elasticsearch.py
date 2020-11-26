@@ -14,7 +14,7 @@ if __name__ == "__main__":
     es = ElasticBookRepository()
     es.create_index_if_not_exist()
     start = time.time()
-    for bash in range(10):
-        books = [faker.book() for i in range(10)]
+    for bash in range(100000):
+        books = [faker.book() for i in range(1000)]
         es.store_all(books, chunk_size=10000)
         print("Insert completely {} books in {} seconds".format((bash + 1) * 1000, time.time() - start))

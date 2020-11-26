@@ -4,7 +4,7 @@ import logging
 import time
 
 from mysql.connector import MySQLConnection, Error
-from python_mysql_dbconfig import read_db_config
+from config_db import read_db_config
 from app.faker_data.books import Faker
 
 __author__ = 'team16'
@@ -108,7 +108,7 @@ def write(book):
 if __name__ == "__main__":
     faker = Faker()
     start = time.time()
-    for bash in range(1):
+    for bash in range(100000):
         books = [faker.book() for i in range(1000)]
         for book in books:
             write(book)
