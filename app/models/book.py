@@ -189,7 +189,7 @@ mappings = {
 settings = {
     "index": {
         "max_result_window": 500000,
-        "number_of_shards": "1",
+        "number_of_shards": "10",
         "analysis": {
             "filter": {
                 "synonym_filter": {
