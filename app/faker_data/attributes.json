@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "type": "cover",
+    "name": "Bìa sách",
+    "values":[
+      {
+        "option_id": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "type": "size",
+    "name": "Kích thước sách",
+    "values":[
+      {
+        "option_id": 2
+      }
+    ]
+  }
+]

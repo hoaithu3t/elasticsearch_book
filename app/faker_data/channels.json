@@ -1,0 +1,22 @@
+[
+  {
+    "type": "first",
+    "name": "Fahasa",
+    "id": 1
+  },
+  {
+    "type": "second",
+    "name": "Tiki",
+    "id": 1
+  },
+  {
+    "type": "third",
+    "name": "Shopee",
+    "id": 2
+  },
+  {
+    "type": "offline",
+    "name": "Kênh offline",
+    "id": 4
+  }
+]

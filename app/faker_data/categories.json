@@ -1,0 +1,265 @@
+[
+  [
+    {
+      "type": "01-S001",
+      "level": 1,
+      "parent_id": 0,
+      "name": "Sách",
+      "id": 1
+    },
+    {
+      "type": "01-S001-99",
+      "level": 2,
+      "parent_id": 1,
+      "name": "Sách Khác",
+      "id": 8
+    },
+    {
+      "type": "01-S001-99-01",
+      "level": 3,
+      "parent_id": 80,
+      "name": "Sách Khác 1.1",
+      "id": 81
+    }
+  ],
+  [
+    {
+      "type": "01-N001",
+      "level": 1,
+      "parent_id": 0,
+      "name": "Sách",
+      "id": 1
+    },
+    {
+      "type": "01-N001-04",
+      "level": 2,
+      "parent_id": 1,
+      "name": "Sách Văn học",
+      "id": 23
+    },
+    {
+      "type": "01-N001-04-01",
+      "level": 3,
+      "parent_id": 23,
+      "name": "Sách Văn học nước ngoài",
+      "id": 24
+    },
+    {
+      "type": "01-N001-04-01-01",
+      "level": 4,
+      "parent_id": 24,
+      "name": "Sách văn học nước ngoài 1.1",
+      "id": 25
+    }
+  ],
+  [
+    {
+      "type": "01-N001",
+      "level": 1,
+      "parent_id": 0,
+      "name": "Sách",
+      "id": 1
+    },
+    {
+      "type": "01-N001-02",
+      "level": 2,
+      "parent_id": 1,
+      "name": "Sách kinh tế",
+      "id": 9
+    },
+    {
+      "type": "01-N001-02-02",
+      "level": 3,
+      "parent_id": 9,
+      "name": "Sách kinh tế lãnh đạo",
+      "id": 13
+    },
+    {
+      "type": "01-N001-02-02-02",
+      "level": 4,
+      "parent_id": 13,
+      "name": "Sách kinh tế lãnh đạo 1.1",
+      "id": 15
+    }
+  ],
+  [
+    {
+      "type": "01-N001",
+      "level": 1,
+      "parent_id": 0,
+      "name": "Sách",
+      "id": 1
+    },
+    {
+      "type": "01-N001-02",
+      "level": 2,
+      "parent_id": 1,
+      "name": "Sách thiếu nhi",
+      "id": 9
+    },
+    {
+      "type": "01-N001-02-01",
+      "level": 3,
+      "parent_id": 9,
+      "name": "Sách thiếu nhi bách khoa",
+      "id": 10
+    },
+    {
+      "type": "01-N001-02-01-01",
+      "level": 4,
+      "parent_id": 10,
+      "name": "Sách thiếu nhi bách khoa 1.1",
+      "id": 11
+    }
+  ],
+  [
+    {
+      "type": "01-N001",
+      "level": 1,
+      "parent_id": 0,
+      "name": "Sách",
+      "id": 1
+    },
+    {
+      "type": "01-N001-02",
+      "level": 2,
+      "parent_id": 1,
+      "name": "Sách tâm lý",
+      "id": 9
+    },
+    {
+      "type": "01-N001-02-01",
+      "level": 3,
+      "parent_id": 9,
+      "name": "Sách tâm lý rèn luyện nhân cách",
+      "id": 10
+    },
+    {
+      "type": "01-N001-02-01-01",
+      "level": 4,
+      "parent_id": 10,
+      "name": "Sách tâm lý rèn luyện nhân cách 1.1",
+      "id": 11
+    }
+  ],
+  [
+    {
+      "type": "01-N001",
+      "level": 1,
+      "parent_id": 0,
+      "name": "Sách",
+      "id": 1
+    },
+    {
+      "type": "01-N001-04",
+      "level": 2,
+      "parent_id": 1,
+      "name": "Sách nuôi dạy con",
+      "id": 23
+    },
+    {
+      "type": "01-N001-04-01",
+      "level": 3,
+      "parent_id": 23,
+      "name": "Sách nuôi dạy con trí tuệ",
+      "id": 24
+    },
+    {
+      "type": "01-N001-04-01-01",
+      "level": 4,
+      "parent_id": 24,
+      "name": "Sách nuôi dạy con trí tuệ 1.1",
+      "id": 25
+    }
+  ],
+  [
+    {
+      "type": "01-N001",
+      "level": 1,
+      "parent_id": 0,
+      "name": "Sách",
+      "id": 1
+    },
+    {
+      "type": "01-N001-04",
+      "level": 2,
+      "parent_id": 1,
+      "name": "Sách giáo khoa",
+      "id": 23
+    },
+    {
+      "type": "01-N001-04-02",
+      "level": 3,
+      "parent_id": 23,
+      "name": "Sách giáo khoa luyện thi",
+      "id": 27
+    },
+    {
+      "type": "01-N001-04-02-02",
+      "level": 4,
+      "parent_id": 27,
+      "name": "Sách giáo khoa luyện thi 2.1",
+      "id": 29
+    }
+  ],
+  [
+    {
+      "type": "01-N001",
+      "level": 1,
+      "parent_id": 0,
+      "name": "Sách",
+      "id": 1
+    },
+    {
+      "type": "01-N001-01",
+      "level": 2,
+      "parent_id": 1,
+      "name": "Sách tham khảo",
+      "id": 2
+    },
+    {
+      "type": "01-N001-01-01",
+      "level": 3,
+      "parent_id": 2,
+      "name": "Sách tham khảo đời sống",
+      "id": 3
+    },
+    {
+      "type": "01-N001-01-01-01",
+      "level": 4,
+      "parent_id": 3,
+      "name": "Sách tham khảo đời sống 1.1",
+      "id": 4
+    }
+  ],
+  [
+    {
+      "type": "01-N001",
+      "level": 1,
+      "parent_id": 0,
+      "name": "Sách",
+      "id": 1
+    },
+    {
+      "type": "01-N001-03",
+      "level": 2,
+      "parent_id": 1,
+      "name": "Sách ngoại ngữ",
+      "id": 16
+    },
+    {
+      "type": "01-N001-03-02",
+      "level": 3,
+      "parent_id": 16,
+      "name": "Sách ngoại ngữ theo tranh",
+      "id": 20
+    },
+    {
+      "type": "01-N001-03-02-01",
+      "level": 4,
+      "parent_id": 20,
+      "name": "Sách ngoại ngữ theo tranh 1.1",
+      "id": 21
+    }
+  ]
+]
